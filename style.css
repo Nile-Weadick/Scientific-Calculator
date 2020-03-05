@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Rationale&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+    user-select: none;
+}
+form{
+    background-color: white;
+    border-radius: 7px 7px 7px 7px;
+    border: 1px solid lightgray;
+    width: 540px;
+    height: 325px;
+    margin-left: calc(50% - 270px);
+    margin-top: 7%;
+}
+
+#title{
+    font-family: 'Rationale', sans-serif;
+    color: darkgray;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#display{
+    font-family: 'Rationale', sans-serif;
+    color: black;
+    font-size: 60px;
+    text-align: right;
+    border-radius:  7px 7px 7px 7px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    height: 75px;
+    width: 500px;
+    margin: 19px;
+}
+
+#display:focus{outline: 0;}
+
+.button{
+    width: 75px;
+    height: 30px;
+    border-radius:  7px 7px 7px 7px;
+    font-size: 14px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.button:focus {outline:0;}
+
+.btn-num:hover{
+    background-color: lightgray;
+}
+.btn-op{
+    background-color: lightgray;
+}
+
+.btn-op:hover{
+    background-color: darkgray;
+}
+
+#clear-btn{
+    background-color:#D0F0C0;
+}
+
+#clear-btn:hover{
+    background-color: lightgreen;
+}
+
+#delete-btn{
+    background-color:pink;
+}
+
+#delete-btn:hover{
+    background-color: lightpink;
+}
+#equal-btn{
+    background-color: lightblue;
+}
+
+#equal-btn:hover{
+    background-color: lightskyblue;
+}
+
+.row{
+    display: table;
+    table-layout: fixed;
+    width: 660px;
+    margin-left: 20px;
+}
